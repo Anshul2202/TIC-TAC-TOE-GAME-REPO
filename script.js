@@ -74,7 +74,7 @@ let reset = document.querySelector("#reset-btn");
 let set = () => {
    boxes.forEach((i) => {
       i.innerText = "";
-
+      i.disabled = false;
    })
  
  
